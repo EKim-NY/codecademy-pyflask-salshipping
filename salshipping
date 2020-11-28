@@ -1,0 +1,12 @@
+def ground_shipping(weight): 
+  if weight <= 2: 
+    cost = 20 + 1.50 * weight
+  elif weight > 2 and weight <= 6: 
+    cost = 20 + 3.00 * weight 
+  elif weight > 6 and weight <= 10: 
+    cost = 20 + 4.00 * weight 
+  else: 
+    cost = 20 + 4.75 * weight 
+  return cost
+
+  
